@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/smallIcon.png</file>
+        <file>images/aboutMenu.png</file>
+        <file>images/fileMenu.png</file>
+        <file>languages/FileExplorer_cn.qm</file>
+        <file>languages/FileExplorer_en.qm</file>
+        <file>languages/FileExplorer_fr.qm</file>
+    </qresource>
+</RCC>
