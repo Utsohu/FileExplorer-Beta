@@ -9,19 +9,23 @@
         <translation type="unfinished">Navigateur de fichiers</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="21"/>
+        <location filename="mainwindow.ui" line="22"/>
         <source>search</source>
         <translation type="unfinished">recherche</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="59"/>
+        <location filename="mainwindow.ui" line="24"/>
+        <source>导出Excel</source>
+        <translation type="unfinished">recherche</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.cpp" line="62"/>
         <source>file </source>
         <translation type="unfinished">Le document </translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="60"/>
         <source>change language</source>
-        <translation type="unfinished">change language to English</translation>
+        <translation type="obsolete">change language to English</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="63"/>
@@ -45,7 +49,7 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="120"/>
-        <location filename="mainwindow.cpp" line="297"/>
+        <location filename="mainwindow.cpp" line="298"/>
         <source>file name</source>
         <translation type="unfinished">Nom du fichier</translation>
     </message>
@@ -61,7 +65,7 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="121"/>
-        <location filename="mainwindow.cpp" line="300"/>
+        <location filename="mainwindow.cpp" line="301"/>
         <source>file path</source>
         <translation type="unfinished">Chemin du fichier</translation>
     </message>
@@ -97,42 +101,42 @@
         <translation type="unfinished">Ce logiciel est développé et distribué par XXX</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="298"/>
+        <location filename="mainwindow.cpp" line="299"/>
         <source>create time</source>
         <translation type="unfinished">Date de création</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="299"/>
+        <location filename="mainwindow.cpp" line="300"/>
         <source>size</source>
         <translation type="unfinished">La taille</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>notice</source>
         <translation type="unfinished">rappel</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="330"/>
+        <location filename="mainwindow.cpp" line="332"/>
         <source>excel export complete</source>
         <translation type="unfinished">Fichier excel exporté avec succès</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="347"/>
+        <location filename="mainwindow.cpp" line="349"/>
         <source>delete file</source>
         <translation type="unfinished">Supprimer un fichier</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="349"/>
+        <location filename="mainwindow.cpp" line="351"/>
         <source>open file in dir</source>
         <translation type="unfinished">Ouvrir le fichier dans l’explorateur</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>warning</source>
         <translation type="unfinished">avertissement</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>Are you sure to delete this file? File will be unable to restore after being deleted.</source>
         <translation type="unfinished">Êtes-vous sûr de vouloir supprimer ce fichier? Les fichiers ne peuvent pas être récupérés après suppression.</translation>
     </message>

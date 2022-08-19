@@ -18,11 +18,7 @@
     <item row="0" column="2">
      <widget class="QPushButton" name="searchBtn">
       <property name="text">
-
-       <string>search</string>
-
-       <string>导出Excel</string>
-
+       <string>搜索</string>
       </property>
      </widget>
     </item>

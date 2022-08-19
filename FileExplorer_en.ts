@@ -9,14 +9,18 @@
         <translation type="unfinished">FileExplorer</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="21"/>
+        <location filename="mainwindow.ui" line="22"/>
         <source>search</source>
         <translation type="unfinished">search</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="60"/>
+        <location filename="mainwindow.ui" line="24"/>
+        <source>导出Excel</source>
+        <translation type="unfinished">search</translation>
+    </message>
+    <message>
         <source>change language</source>
-        <translation type="unfinished">更改语言为简体中文</translation>
+        <translation type="obsolete">更改语言为简体中文</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="63"/>
@@ -40,7 +44,7 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="120"/>
-        <location filename="mainwindow.cpp" line="297"/>
+        <location filename="mainwindow.cpp" line="298"/>
         <source>file name</source>
         <translation type="unfinished">file name</translation>
     </message>
@@ -86,53 +90,53 @@
         <translation type="unfinished">this software is developed by XXX</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="298"/>
+        <location filename="mainwindow.cpp" line="299"/>
         <source>create time</source>
         <translation type="unfinished">create time</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="299"/>
+        <location filename="mainwindow.cpp" line="300"/>
         <source>size</source>
         <translation type="unfinished">size</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="121"/>
-        <location filename="mainwindow.cpp" line="300"/>
+        <location filename="mainwindow.cpp" line="301"/>
         <source>file path</source>
         <translation type="unfinished">file path</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="59"/>
+        <location filename="mainwindow.cpp" line="62"/>
         <source>file </source>
         <translation type="unfinished">file</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>notice</source>
         <translation type="unfinished">notice</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="330"/>
+        <location filename="mainwindow.cpp" line="332"/>
         <source>excel export complete</source>
         <translation type="unfinished">excel export complete</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="347"/>
+        <location filename="mainwindow.cpp" line="349"/>
         <source>delete file</source>
         <translation type="unfinished">delete file</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="349"/>
+        <location filename="mainwindow.cpp" line="351"/>
         <source>open file in dir</source>
         <translation type="unfinished">open file in dir</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>warning</source>
         <translation type="unfinished">warning</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>Are you sure to delete this file? File will be unable to restore after being deleted.</source>
         <translation type="unfinished">Are you sure to delete this file? File will be unable to restore after being deleted.</translation>
     </message>

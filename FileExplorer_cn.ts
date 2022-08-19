@@ -9,8 +9,13 @@
         <translation type="unfinished">文件浏览器</translation>
     </message>
     <message>
-        <location filename="mainwindow.ui" line="21"/>
+        <location filename="mainwindow.ui" line="22"/>
         <source>search</source>
+        <translation type="unfinished">搜索</translation>
+    </message>
+    <message>
+        <location filename="mainwindow.ui" line="24"/>
+        <source>导出Excel</source>
         <translation type="unfinished">搜索</translation>
     </message>
     <message>
@@ -18,9 +23,8 @@
         <translation type="obsolete">导出excel</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="60"/>
         <source>change language</source>
-        <translation type="unfinished">change language to English</translation>
+        <translation type="obsolete">change language to English</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="63"/>
@@ -44,7 +48,7 @@
     </message>
     <message>
         <location filename="mainwindow.cpp" line="120"/>
-        <location filename="mainwindow.cpp" line="297"/>
+        <location filename="mainwindow.cpp" line="298"/>
         <source>file name</source>
         <translation type="unfinished">文件名</translation>
     </message>
@@ -90,53 +94,53 @@
         <translation type="unfinished">本软件由XXX开发发布</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="298"/>
+        <location filename="mainwindow.cpp" line="299"/>
         <source>create time</source>
         <translation type="unfinished">创建日期</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="299"/>
+        <location filename="mainwindow.cpp" line="300"/>
         <source>size</source>
         <translation type="unfinished">大小</translation>
     </message>
     <message>
         <location filename="mainwindow.cpp" line="121"/>
-        <location filename="mainwindow.cpp" line="300"/>
+        <location filename="mainwindow.cpp" line="301"/>
         <source>file path</source>
         <translation type="unfinished">文件路径</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="59"/>
+        <location filename="mainwindow.cpp" line="62"/>
         <source>file </source>
         <translation type="unfinished">文件 </translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="329"/>
+        <location filename="mainwindow.cpp" line="331"/>
         <source>notice</source>
         <translation type="unfinished">提示</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="330"/>
+        <location filename="mainwindow.cpp" line="332"/>
         <source>excel export complete</source>
         <translation type="unfinished">excel文件导出成功</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="347"/>
+        <location filename="mainwindow.cpp" line="349"/>
         <source>delete file</source>
         <translation type="unfinished">删除文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="349"/>
+        <location filename="mainwindow.cpp" line="351"/>
         <source>open file in dir</source>
         <translation type="unfinished">在资源管理器里打开文件</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>warning</source>
         <translation type="unfinished">警告</translation>
     </message>
     <message>
-        <location filename="mainwindow.cpp" line="358"/>
+        <location filename="mainwindow.cpp" line="360"/>
         <source>Are you sure to delete this file? File will be unable to restore after being deleted.</source>
         <translation type="unfinished">你确定要删除本文件吗？文件在删除后将无法恢复。</translation>
     </message>

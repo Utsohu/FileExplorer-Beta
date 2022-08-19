@@ -45,6 +45,7 @@ MainWindow::MainWindow(QString language, QWidget *parent) :
     ui->fileView->setModel(m_model);
     QWidget::setWindowTitle("FileExplorer");
     QWidget::setWindowIcon(QIcon(":/images/smallIcon.png"));
+    ui->searchBtn->setText(tr("search"));
     ui->fileBrowser->setSortingEnabled(true);
     ui->fileBrowser->setEditTriggers(QAbstractItemView::NoEditTriggers);
     ui->fileBrowser->horizontalHeader()->setSectionResizeMode(QHeaderView::ResizeToContents);

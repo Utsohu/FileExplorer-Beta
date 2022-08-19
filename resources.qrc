@@ -6,5 +6,6 @@
         <file>languages/FileExplorer_cn.qm</file>
         <file>languages/FileExplorer_en.qm</file>
         <file>languages/FileExplorer_fr.qm</file>
+        <file>damotouicon.ico</file>
     </qresource>
 </RCC>

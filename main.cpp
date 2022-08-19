@@ -15,6 +15,7 @@ int main(int argc, char *argv[])
 
     if (language == ""){
         languageBox checkBox;
+        checkBox.setWindowIcon(QIcon(":/images/fileMenu.png"));
         int ret = checkBox.exec();
         if( ret == 3){//QDialog::Accepted) {
             language = "en";
