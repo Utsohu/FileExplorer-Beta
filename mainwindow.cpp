@@ -181,7 +181,7 @@ void MainWindow::showSearchProceed(){
      m_cancelBtn = new QPushButton();
      m_cancelBtn->setText("cancel");
      m_cancelBtn->hide();
-     //cancelBtn->setGeometry(200,100,30,50);
+     m_cancelBtn->setGeometry(200,100,0,0);
      connect(m_cancelBtn,SIGNAL(clicked(bool)),this,SLOT(finishSearching(bool)));
      m_progressdlg->setCancelButton(m_cancelBtn);
      m_hTimer = startTimer(200);
