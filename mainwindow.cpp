@@ -178,6 +178,12 @@ void MainWindow::showSearchProceed(){
      m_progressdlg->setRange(0,101);
      m_progressdlg->setWindowIcon(QIcon(":/images/smallIcon.png"));
      m_progressdlg->show();  //显示对话框
+     m_cancelBtn = new QPushButton();
+     m_cancelBtn->setText("cancel");
+     m_cancelBtn->hide();
+     //cancelBtn->setGeometry(200,100,30,50);
+     connect(m_cancelBtn,SIGNAL(clicked(bool)),this,SLOT(finishSearching(bool)));
+     m_progressdlg->setCancelButton(m_cancelBtn);
      m_hTimer = startTimer(200);
 }
 void MainWindow::timerEvent(QTimerEvent *e)
@@ -386,4 +392,10 @@ void MainWindow::onQuitTriggered(bool isClicked){
 
 void MainWindow::onSearchFileChanged(QString fileName){
     m_currentSearchingFile = fileName;
+}
+
+void MainWindow::finishSearching(bool isClicked){
+    killTimer(m_hTimer);
+    m_progressdlg = 0;
+    searchThread->terminate();
 }

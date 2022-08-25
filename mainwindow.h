@@ -35,6 +35,7 @@ private:
     QList<myFileInfo*> m_plShowInfo;
     mySearchThread* searchThread;
     QProgressDialog* m_progressdlg;
+    QPushButton* m_cancelBtn;
     QString m_savePath;
     QString m_openFilePath;
     QString m_currentSearchingFile = "";
@@ -63,6 +64,7 @@ private slots:
     void onBrowserOpen(bool isClicked);
     void onQuitTriggered(bool isClicked);
     void onSearchFileChanged(QString fileName);
+    void finishSearching(bool isClicked);
 
 
 signals:
