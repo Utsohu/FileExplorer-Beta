@@ -177,13 +177,13 @@ void MainWindow::showSearchProceed(){
      m_progressdlg->setWindowTitle(tr("search progress"));
      m_progressdlg->setRange(0,101);
      m_progressdlg->setWindowIcon(QIcon(":/images/smallIcon.png"));
-     m_progressdlg->show();  //显示对话框
+       //显示对话框
      m_cancelBtn = new QPushButton();
-     m_cancelBtn->setText("cancel");
-     m_cancelBtn->hide();
-     m_cancelBtn->setGeometry(200,100,0,0);
-     connect(m_cancelBtn,SIGNAL(clicked(bool)),this,SLOT(finishSearching(bool)));
      m_progressdlg->setCancelButton(m_cancelBtn);
+     m_cancelBtn->setText("cancel");
+     m_progressdlg->show();
+     //m_cancelBtn->resize(0,0);
+     connect(m_cancelBtn,SIGNAL(clicked(bool)),this,SLOT(finishSearching(bool)));
      m_hTimer = startTimer(200);
 }
 void MainWindow::timerEvent(QTimerEvent *e)
